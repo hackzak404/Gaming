@@ -346,11 +346,21 @@ section {
     max-width: 500px;
     border-radius: 20px;
     margin-top: 50px;
+    align-items: center;
+    justify-content: center;
     margin-left: 28%;
 }
 
-.Contact {
-    
+.Contactform .inputboite {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Contactform h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 .titre-text, p{
@@ -359,4 +369,146 @@ section {
 
 span {
     color: #fb911f;
+}
+
+.Contactform .inputboite input, 
+.Contactform .inputboite textarea {
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: noen; 
+}
+
+.Contactform .inputboite input[type="submit"] {
+        font-size: 1em;
+        font-weight: 700;
+        color: #ffff;
+        background: #fb911f;
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        outline: none;
+        border: none;
+        transition: 0.5d;
+        max-width: 120px;
+        align-items: center;
+        justify-content: center;
+}
+
+.copyright {
+    padding: 20px 40px;
+    border-top: 2px solid rgba(0,0,0,0.1);background:
+    rgba(228,222,222,);
+    text-align: center;
+}
+
+.copyright p:nth-child(1) {
+    color: #333;
+}
+
+.copyright a {
+    color: #fb911f;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+}
+
+header.sticky .logo {
+    color: #000;
+}
+
+header.sticky .navbar li a {
+    color: #000;
+}
+
+header.sticky li a:hover {
+    color: #fb911f;
+    border-bottom: 2px solid #fb911f;
+}
+
+@media (max-width: 991px) {
+header, header .sticky {
+    padding: 10px 20px;
+}
+
+header .navbar li {
+    margin-left: 0px;
+}
+
+header .navbar li a {
+    text-decoration: noen;
+    color: #111;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+.navbar {
+    display: none;
+}
+section {
+    padding: 20px;
+}
+
+.banniere .contenu h2 {
+    font-size: 1.2em;
+}
+
+.row .col50 img {
+    margin-left: 10%;
+}
+
+.contenu p:nth-child(2){
+    font-size: 1.2em;
+}
+
+.Expert {
+    margin-top: 0px;
+}
+
+.menu{
+    margin-top: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.Temoignage {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.Temoignage h2 {
+    text-align: center;
+}
+
+.Contactfor {
+    margin-left: 25%;
+}
+    .row .col50 {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    
 }
